@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Betteread",
+  "version": "1.0",
+  "description": "format words for 'better' reading",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "css": ["sheet.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
